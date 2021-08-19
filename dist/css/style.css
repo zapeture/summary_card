@@ -86,7 +86,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #7280a7;
   line-height: 2;
 }
@@ -97,7 +97,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: #f5f7ff;
   border-radius: 10px;
+  width: 90%;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -126,13 +128,14 @@ body {
 
 .subcard .subcard-body .paragraph {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   color: #7280a7;
 }
 
 .subcard .subcard-link {
   display: block;
   color: #3829e0;
+  font-weight: 700;
   font-size: 1rem;
   text-decoration: underline;
 }
